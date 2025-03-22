@@ -3,7 +3,7 @@
 This repository contains the implementation of an Agentic RAG (Retrieval-Augmented Generation) system using Autogen, designed to process complex queries through multi-agent collaboration. The system intelligently retrieves relevant information from various knowledge sources and generates accurate, contextual responses enhanced with retrieved knowledge.
 
 ## System Architecture
-![Agentic RAG Architecture]([https://i.imgur.com/placeholder.png](https://github.com/codeloki15/Agentic_RAG/blob/main/agentic_rag.png))
+![Agentic RAG Architecture]([https://github.com/codeloki15/Agentic_RAG/blob/main/agentic_rag.png])
 
 The above diagram illustrates our multi-agent architecture:
 1. User queries are sent to Agent1 (Assistant agent) which identifies question intent and entities
