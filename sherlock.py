@@ -10,7 +10,7 @@ from langchain_community.document_loaders import PyPDFLoader
 config_list = autogen.config_list_from_json("OAI_CONFIG_LIST.json")
 # Load environment variables
 load_dotenv()
-api_key = "sk-proj-FRqv7zFMwjU7qK6ydQDqT3BlbkFJ4QD370dhTlH5jsgoUSwd"
+api_key = "sk-proj-YOUR-API-KEY"
 os.environ['OPENAI_API_KEY'] = api_key
 
 # Initialize LLM
@@ -88,7 +88,7 @@ if uploaded_file is not None:
                                          You need to create a step by step plan of what other members should be looking for in the corpus to gather the correct set of information in order to answer the user's problem.
                             
                                          RESPOND BACK WITH ALL THE QUESTIONS THAT ARE NEEDED TO BE SEARCHED ON   knowledge_corpus,
-                                         IF questions needs to be searched on web <Questions to be searched on the knowledge_corpus> ask as many question as you can to understand all the nitty gritties of the question
+                                         IF questions needs to be searched on web <Questions to be searched on the knowledge_corpus> a as many question as you can to understand all the nitty gritties of the question
                                             <Questions to be searched on the knowledge_corpus>
                                             <Questions to be searched on the knowledge_corpus>
                                             <Questions to be searched on the knowledge_corpus>
