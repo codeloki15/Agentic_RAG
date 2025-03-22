@@ -11,6 +11,8 @@ The above diagram illustrates our multi-agent architecture:
 3. Agent3 (User-proxy agent) performs vector extraction using the query, intent, and entities to retrieve the top K chunks
 4. Agent4 (Assistant agent) combines the original question with the retrieved chunks to generate a comprehensive response
 
+## Look at the sample code for sherlock.py to gain understanding on agent selection, speaker selection ,register function, function calling and vector db use case.
+
 ## Agentic RAG Assignment – Two-Week Plan
 
 **Start Date:** [Insert Start Date]  
